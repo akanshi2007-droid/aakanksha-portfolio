@@ -1,0 +1,23 @@
+/* Design tokens: colours, fonts, shadows (edit these to re-theme the site) */
+:root {
+  --ink: #3b2352;
+  --pink: #ff7eb6;
+  --hot: #ff4f9a;
+  --blush: #ffd9ea;
+  --rose: #ffeaf4;
+  --lav: #d9c7ff;
+  --purple: #a07bff;
+  --sky: #cfeaff;
+  --blue: #6c7cff;
+  --butter: #fff0a8;
+  --yellow: #ffd84d;
+  --mint: #c9f3de;
+  --green: #46d39a;
+  --cream: #fff8f0;
+  --paper: #fffaf5;
+  --red: #e5395f;
+  --display: 'Press Start 2P', monospace;
+  --body: 'VT323', monospace;
+  --shadow: 6px 6px 0 var(--ink);
+  --radius: 14px;
+}

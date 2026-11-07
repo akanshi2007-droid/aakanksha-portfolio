@@ -1,0 +1,24 @@
+/* Contact section + form */
+.contact-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 36px; align-items: start; }
+.cat-help { position: relative; display: grid; justify-items: start; gap: 6px; }
+.bubble { position: relative; background: #fff; border: 3px solid var(--ink); border-radius: 14px; padding: 12px 16px; font-size: 1.5rem; color: var(--hot); box-shadow: 4px 4px 0 var(--ink); margin-bottom: 14px; }
+.bubble::after { content: ""; position: absolute; left: 36px; bottom: -14px; border: 7px solid transparent; border-top: 8px solid var(--ink); }
+.cat-big { width: 150px; height: 134px; animation: bob 2.4s steps(2) infinite; }
+.cat-help .daisy { position: absolute; width: 54px; height: 54px; left: 170px; top: 96px; animation: spin 14s linear infinite; }
+.cat-help .heart-s { position: absolute; width: 36px; height: 34px; left: 236px; top: 138px; color: var(--hot); animation: bob 2s steps(2) infinite; }
+.socials { margin-top: 20px; display: grid; gap: 10px; }
+.socials a { display: inline-block; background: #fff; border: 3px solid var(--ink); border-radius: 999px; padding: 6px 16px; text-decoration: none; box-shadow: 4px 4px 0 var(--ink); word-break: break-all; }
+.socials a:hover { background: var(--butter); }
+.field { margin-bottom: 16px; }
+.field label { display: block; font-family: var(--display); font-size: .6rem; margin-bottom: 8px; }
+.field label small { font-family: var(--body); font-size: 1.1rem; opacity: .7; }
+.field input, .field textarea { width: 100%; font: inherit; font-size: 1.4rem; padding: 10px 12px; background: #fff; color: var(--ink); border: 3px solid var(--ink); border-radius: 10px; box-shadow: inset 3px 3px 0 rgba(160,123,255,.18); resize: vertical; }
+.field input:focus, .field textarea:focus { outline: 3px solid var(--pink); border-color: var(--hot); }
+.field.invalid input, .field.invalid textarea { border-color: var(--red); background: #fff0f3; }
+.field.valid input, .field.valid textarea { border-color: #1b9c58; }
+.err { color: var(--red); min-height: 1.2em; font-size: 1.2rem; }
+.row-between { display: flex; justify-content: space-between; gap: 10px; }
+.count { opacity: .7; font-size: 1.1rem; white-space: nowrap; }
+.form-status { margin-top: 14px; font-size: 1.4rem; }
+.form-status.ok { color: #1b7f4b; }
+.form-status.bad { color: var(--red); }

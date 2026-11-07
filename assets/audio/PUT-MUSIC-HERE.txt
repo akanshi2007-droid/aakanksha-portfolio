@@ -1,0 +1,2 @@
+Optional: put background music here as theme.mp3 (royalty-free only).
+If it is missing, a built-in chiptune plays instead.

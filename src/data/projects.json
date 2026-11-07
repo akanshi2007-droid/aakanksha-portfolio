@@ -1,0 +1,59 @@
+[
+  {
+    "id": "canvas-editor",
+    "windowTitle": "canvas-editor.exe",
+    "title": "Mini Design Canvas Editor",
+    "description": "An interactive browser-based editor supporting text, shapes and image elements.",
+    "highlights": ["Drag-and-resize, layer management and undo.", "PNG / PDF export."],
+    "tech": ["React.js", "Vite", "JavaScript"],
+    "links": {
+      "github": "https://github.com/akanshi2007-droid/mini-design-editor",
+      "demo": "https://mini-design-editor-6vcu.vercel.app/"
+    },
+    "screenshots": [
+      { "src": "assets/projects/canvas-1.png", "alt": "Mini Design Canvas Editor, main canvas view" },
+      { "src": "assets/projects/canvas-2.png", "alt": "Mini Design Canvas Editor, layers panel" },
+      { "src": "assets/projects/canvas-3.png", "alt": "Mini Design Canvas Editor, export" }
+    ]
+  },
+  {
+    "id": "ai-strategy-advisor",
+    "windowTitle": "foliomuse.exe",
+  "title": "FolioMuse – Portfolio Generator",
+  "description": "A customizable portfolio generator that helps users create and personalize professional portfolios using ready-made templates.",
+  "highlights": [
+    "Five customizable portfolio templates.",
+    "Live preview with profile editing and image uploads.",
+    "LocalStorage support and ZIP export functionality."
+  ],
+  "tech": ["React.js", "Vite", "JavaScript", "CSS"],
+  "links": {
+    "github": "https://github.com/akanshi2007-droid/FolioMuse",
+    "demo": "https://foliomuse-five.vercel.app/"
+  },
+  "screenshots": [
+    { "src": "assets/projects/foliomuse-1.png", "alt": "FolioMuse homepage and template selection" },
+    { "src": "assets/projects/foliomuse-2.png", "alt": "FolioMuse portfolio customization and live preview" },
+    { "src": "assets/projects/foliomuse-3.png", "alt": "FolioMuse generated portfolio templates" }
+  ]
+},
+  {
+    "id": "hate-speech-detector",
+    "windowTitle": "hate-speech-detector.exe",
+    "title": "Hate Speech Detection System",
+    "description": "A Python-based project that identifies and classifies hate speech in textual data.",
+    "highlights": ["Five customizable portfolio templates.",
+    "Live preview with profile editing and image uploads.",
+    "LocalStorage support and ZIP export functionality."],
+    "tech": ["Python", "Machine Learning"],
+    "links": {
+      "github": "https://github.com/akanshi2007-droid/Hate-Speech-Detection/tree/main",
+      "demo": ""
+    },
+    "screenshots": [
+      { "src": "assets/projects/hate-1.png", "alt": "Hate Speech Detection System output" },
+      { "src": "assets/projects/hate-2.png", "alt": "Hate Speech Detection System results" },
+      { "src": "assets/projects/hate-3.png", "alt": "Hate Speech Detection System notebook" }
+    ]
+  }
+]

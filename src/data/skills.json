@@ -1,0 +1,9 @@
+{
+  "windowTitle": "ITEMS",
+  "groups": [
+    { "title": "Languages", "dot": "pink", "items": ["Python", "Java", "C++", "C", "JavaScript"] },
+    { "title": "Web / Frontend", "dot": "blue", "items": ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Vite"] },
+    { "title": "APIs & Tools", "dot": "yellow", "items": ["REST APIs", "Git", "GitHub", "Postman", "VS Code", "Vercel", "Jupyter"] },
+    { "title": "Data Science", "dot": "green", "items": ["Pandas", "NumPy", "Matplotlib"] }
+  ]
+}

@@ -1,0 +1,17 @@
+/* Top menu bar */
+.menubar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50; height: 56px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 0 16px; background: var(--cream); color: var(--ink);
+  border-bottom: 4px solid var(--ink);
+}
+.logo { font-family: var(--display); font-size: .8rem; text-decoration: none; color: var(--ink); }
+.logo span { color: var(--hot); }
+.nav { display: flex; gap: 6px; }
+.nav a { font-family: var(--display); font-size: .6rem; text-decoration: none; padding: 10px 12px; color: var(--ink); border: 3px solid transparent; border-radius: 10px; }
+.nav a:hover { background: var(--blush); border-color: var(--ink); }
+.nav a.active { background: var(--pink); border-color: var(--ink); }
+.nav a.active::before { content: "♥ "; color: #fff; }
+.menu-toggle { display: none; font-family: var(--display); font-size: .6rem; padding: 10px; background: var(--pink); color: var(--ink); border: 3px solid var(--ink); border-radius: 10px; cursor: pointer; }
+.xp { position: absolute; left: 0; right: 0; bottom: -4px; height: 4px; background: var(--ink); }
+.xp span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #ff9bb3, #ffc58f, #fff09e, #b7efc9, #a9d8ff, #d2b8ff); }

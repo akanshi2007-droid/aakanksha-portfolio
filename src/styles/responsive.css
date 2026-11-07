@@ -1,0 +1,56 @@
+/* Responsive breakpoints (1080 / 960 / 820 / 520) */
+@media (max-width: 1080px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 70px; justify-items: center; }
+  .monitor { width: min(720px, 100%); }
+  .photo-win { width: min(380px, 86%); }
+}
+@media (max-width: 960px) {
+  .project .win-body { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 820px) {
+  body { font-size: 1.3rem; }
+  .menu-toggle { display: block; }
+  .nav { position: absolute; top: 56px; left: 0; right: 0; flex-direction: column; background: var(--cream); border-bottom: 4px solid var(--ink); padding: 8px 12px 14px; display: none; }
+  .nav.open { display: flex; }
+  .nav a { padding: 14px 12px; font-size: .7rem; }
+  .about-grid { grid-template-columns: 1fr; }
+  .bio-win { grid-column: 1; }
+  .avatar-win { max-width: 300px; }
+  .skills-grid { grid-template-columns: 1fr; }
+  .sticky { right: -6px; top: -36px; padding: 18px 9px 10px; font-size: .44rem; line-height: 1.6; }
+  .st-1 { left: 28%; }
+  .projects::before { display: none; }
+}
+@media (max-width: 520px) {
+  .hero { padding: 70px 14px 80px; }
+  .level { padding: 48px 14px; }
+  .win-body { padding: 14px; }
+  .monitor { padding: 32px 12px 0; }
+  .monitor-base { margin-inline: -12px; padding-inline: 12px; height: 76px; }
+  .monitor-base .slot { display: none; }
+  .st-1 { left: 18%; } .st-2 { right: 8%; }
+  .cat-top { width: 66px; height: 59px; top: -50px; }
+  .shots { gap: 8px; }
+  .btn { font-size: .55rem; padding: 11px 10px; }
+  .taskbar .task-item { display: none; }
+  .cta .btn, .links .btn { flex: 1 1 100%; }
+  .photo-win { width: min(320px, 88%); }
+  .pix-cur1 { left: -18px; width: 36px; }
+  .pix-pad { right: -22px; width: 84px; }
+  .pix-folder { right: -14px; width: 72px; }
+  .pix-daisy { right: -12px; width: 52px; }
+  .pix-heart { left: -12px; }
+  .dialog { left: -12px; width: 186px; bottom: 14px; }
+  .dialog p { font-size: 1.1rem; min-height: 56px; }
+  .stage { font-size: .5rem; padding: 7px 10px; }
+  .cat-help .daisy { left: 166px; }
+  .cat-help .heart-s { left: 226px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .reveal { opacity: 1; transform: none; }
+  .bar-hero span { width: 100%; }
+  .floaties, .burst { display: none; }
+}

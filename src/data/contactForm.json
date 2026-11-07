@@ -1,0 +1,9 @@
+{
+  "submitLabel": "▶ SEND MESSAGE",
+  "fields": [
+    { "id": "name", "label": "Name", "type": "text", "autocomplete": "name", "required": true, "minlength": 2, "maxlength": 60 },
+    { "id": "email", "label": "Email", "type": "email", "autocomplete": "email", "required": true },
+    { "id": "subject", "label": "Subject", "type": "text", "optional": true, "maxlength": 80 },
+    { "id": "message", "label": "Message", "type": "textarea", "required": true, "rows": 5, "minlength": 10, "maxlength": 600 }
+  ]
+}

@@ -1,0 +1,8 @@
+/* Retro OS window (reusable) */
+.window { background: var(--paper); border: 3px solid var(--ink); border-radius: var(--radius); box-shadow: var(--shadow); }
+.titlebar { display: flex; justify-content: space-between; align-items: center; gap: 10px; background: linear-gradient(90deg, var(--pink), var(--purple)); color: #fff; text-shadow: 1px 1px 0 var(--ink); font-family: var(--display); font-size: .6rem; padding: 9px 12px; border-bottom: 3px solid var(--ink); border-radius: 11px 11px 0 0; }
+.titlebar > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ctrl { display: flex; gap: 5px; }
+.ctrl i { width: 13px; height: 13px; background: #fff; border: 2px solid var(--ink); border-radius: 4px; }
+.ctrl i:last-child { background: var(--butter); }
+.win-body { padding: 18px; }

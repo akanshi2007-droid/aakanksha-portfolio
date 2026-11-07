@@ -1,0 +1,90 @@
+{
+  "name": "Aakanksha Singh",
+  "firstName": "Aakanksha",
+  "siteTitle": "Aakanksha Singh · Frontend Developer Portfolio",
+  "logo": { "text": "AS", "suffix": ".exe" },
+  "email": "akanshi2007@gmail.com",
+  "resume": "assets/docs/resume.pdf",
+
+  "intro": { "title": "PORTFOLIO" },
+
+  "hero": {
+    "kicker": "LEVEL 01 · PLAYER SELECT",
+    "title": "PORTFOLIO",
+    "greeting": "Hi, I'm",
+    "role": "Frontend Developer · CSE (Data Science) @ SRM",
+    "loadingNote": "building responsive, playful & usable interfaces…",
+    "ctas": [
+      { "label": "▶ VIEW PROJECTS", "href": "#projects", "variant": "yellow" },
+      { "label": "✉ HIRE ME", "href": "#contact", "variant": "cream" }
+    ],
+    "stickers": ["FRONTEND DEV", "REACT · UI"],
+    "stickyNote": ["OPEN TO", "INTERNSHIPS!"],
+    "scrollHint": "▼ SCROLL TO PLAY",
+    "photo": {
+      "src": "assets/images/avatar.png",
+      "alt": "Aakanksha Singh smiling in a white lace blouse",
+      "windowTitle": "aakanksha.png",
+      "speech": "hi hi! ♡",
+      "width": 591,
+      "height": 1014
+    },
+    "dialog": {
+      "title": "HELLO!",
+      "question": "DO YOU WANT TO SEE MY WORK?",
+      "yes": "YES",
+      "no": "NO",
+      "noReply": "NICE TRY :3 ♡ CLICK YES!",
+      "href": "#projects"
+    }
+  },
+
+  "about": {
+    "avatarWindow": "player.png",
+    "playerTag": "PLAYER 01",
+    "bioWindow": "hello.txt",
+    "heading": "Hello!! ✦",
+    "paragraphs": [
+      "I'm a Computer Science undergraduate specializing in Data Science, with hands-on experience in Python, machine learning and web development. I love turning ideas into clean, responsive and slightly whimsical interfaces.",
+      "I'm interested in research opportunities, learning new technologies, and applying analytical and problem-solving skills to real-world challenges, especially on product-oriented frontends."
+    ],
+    "stats": [
+      { "label": "CLASS", "value": "B.Tech CSE (Data Science), 2025–2029" },
+      { "label": "GUILD", "value": "SRM Institute of Science and Technology, Kattankulathur" },
+      { "label": "CGPA", "value": "9.05" },
+      { "label": "QUEST", "value": "Frontend Developer Intern @ ShadowFox" },
+      { "label": "BADGE", "value": "NPTEL · Fundamentals of OOP · Elite + Silver (82/100)" }
+    ],
+    "resumeLabel": "⬇ DOWNLOAD RESUME",
+    "timelineWindow": "training_log.txt",
+    "timeline": [
+      {
+        "when": "Nov 2026 – Now",
+        "title": "Frontend Developer Intern",
+        "detail": "ShadowFox · responsive web development, UI design, portfolio & e-commerce projects."
+      },
+      {
+        "when": "2025 – 2029",
+        "title": "B.Tech CSE (Data Science)",
+        "detail": "SRM IST, Kattankulathur · CGPA 9.05."
+      }
+    ]
+  },
+
+  "contact": {
+    "bubble": "How can I help? :3c",
+    "formWindow": "new_message.exe",
+    "social": [
+      { "label": "akanshi2007@gmail.com", "href": "mailto:akanshi2007@gmail.com", "icon": "✉", "external": false },
+      { "label": "GitHub", "href": "https://github.com/akanshi2007-droid", "icon": "⌥", "external": true },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/aakanksha-singh007", "icon": "in", "external": true }
+    ]
+  },
+
+  "footer": {
+    "text": "Built with HTML, CSS & vanilla JS ♡",
+    "backToTop": "↑ CONTINUE? (BACK TO TOP)"
+  },
+
+  "taskbar": { "start": "⊞ Start" }
+}

@@ -1,0 +1,26 @@
+/* Reset + global element styles */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+body {
+  font-family: var(--body);
+  font-size: 1.4rem;
+  line-height: 1.25;
+  color: var(--ink);
+  background-color: #ffd5e8;
+  background-image:
+    radial-gradient(#fff 2px, transparent 2.6px),
+    radial-gradient(#fff 2px, transparent 2.6px),
+    linear-gradient(180deg, #ffc4e0 0%, #ffdcec 38%, #f1e4ff 72%, #dcd0ff 100%);
+  background-size: 34px 34px, 34px 34px, 100% 100%;
+  background-position: 0 0, 17px 17px, 0 0;
+  padding: 56px 0 52px;
+  overflow-x: hidden;
+}
+img, svg { max-width: 100%; display: block; }
+a { color: inherit; }
+ul, ol { list-style: none; }
+code { background: var(--ink); color: var(--butter); padding: 0 6px; border-radius: 4px; }
+:focus-visible { outline: 3px dashed var(--hot); outline-offset: 3px; }
+::selection { background: var(--pink); color: #fff; }
+
+main, .footer { position: relative; z-index: 1; }

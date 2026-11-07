@@ -1,0 +1,25 @@
+/* =====================================================
+   Aakanksha Singh · Portfolio  ♡  cute retro-OS theme
+   Entry stylesheet: imports every partial in order.
+   ===================================================== */
+@import url("tokens.css");
+@import url("base.css");
+@import url("animations.css");
+
+@import url("components/button.css");
+@import url("components/window.css");
+@import url("components/section.css");
+@import url("components/floaties.css");
+@import url("components/intro.css");
+@import url("components/navbar.css");
+@import url("components/hero.css");
+@import url("components/about.css");
+@import url("components/skills.css");
+@import url("components/projects.css");
+@import url("components/contact.css");
+@import url("components/footer.css");
+@import url("components/taskbar.css");
+@import url("components/lightbox.css");
+
+@import url("responsive.css");
+@import url("cursors.css");

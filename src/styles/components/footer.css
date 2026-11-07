@@ -1,0 +1,2 @@
+/* Footer */
+.footer { text-align: center; color: var(--ink); padding: 40px 20px 50px; display: grid; gap: 18px; justify-items: center; background: #e9dcff; border-top: 4px solid var(--ink); }

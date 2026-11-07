@@ -1,0 +1,11 @@
+{
+  "name": "aakanksha-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cute retro-OS frontend developer portfolio. Vanilla HTML, CSS and ES modules with reusable components and JSON content. No build step.",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  }
+}

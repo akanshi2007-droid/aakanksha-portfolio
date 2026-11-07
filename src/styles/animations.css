@@ -1,0 +1,15 @@
+/* Keyframes + scroll reveal */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .5s, transform .5s steps(6); }
+.reveal.in { opacity: 1; transform: none; }
+
+@keyframes fill { from { width: 0 } to { width: 100% } }
+@keyframes bob { 50% { transform: translateY(-6px); } }
+@keyframes wiggle { 50% { transform: rotate(3deg); } }
+@keyframes blink { 50% { opacity: .2; } }
+@keyframes twinkle { 50% { transform: scale(.6) rotate(20deg); opacity: .6; } }
+@keyframes drift { to { transform: translateX(calc(100vw + 320px)); } }
+@keyframes drift2 { to { transform: translateX(24px); } }
+@keyframes floaty { 50% { transform: rotate(1.6deg) translateY(-8px); } }
+@keyframes nudge { 50% { transform: translate(6px, 6px) rotate(-8deg); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes shake { 20%, 60% { transform: rotate(-2deg) translateX(-6px); } 40%, 80% { transform: rotate(-2deg) translateX(6px); } }

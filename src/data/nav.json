@@ -1,0 +1,7 @@
+[
+  { "id": "home", "label": "HOME" },
+  { "id": "about", "label": "ABOUT", "level": 2, "title": "About Me" },
+  { "id": "skills", "label": "SKILLS", "level": 3, "title": "Skills & Tools" },
+  { "id": "projects", "label": "PROJECTS", "level": 4, "title": "Projects", "subtitle": "Click a screenshot to enlarge it." },
+  { "id": "contact", "label": "CONTACT", "level": 5, "title": "Contact" }
+]

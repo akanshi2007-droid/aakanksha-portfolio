@@ -1,0 +1,4 @@
+Put your project screenshots here (PNG/JPG), named exactly as in src/data/projects.json:
+canvas-1.png, canvas-2.png, canvas-3.png
+ai-advisor-1.png, ai-advisor-2.png, ai-advisor-3.png
+hate-speech-1.png, hate-speech-2.png, hate-speech-3.png

@@ -1,0 +1,6 @@
+/* Floating hearts + click burst */
+.floaties { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.fh { position: absolute; bottom: -40px; width: var(--s); height: var(--s); color: var(--c); opacity: .75; animation: rise var(--d) linear infinite; animation-delay: var(--dl); }
+@keyframes rise { 0% { transform: translate(0, 0) rotate(-8deg); } 50% { transform: translate(var(--x), -55vh) rotate(8deg); } 100% { transform: translate(0, -115vh) rotate(-8deg); } }
+.burst { position: fixed; z-index: 120; width: 18px; height: 18px; pointer-events: none; color: var(--c); animation: pop .75s ease-out forwards; }
+@keyframes pop { to { transform: translate(var(--bx), var(--by)) scale(.4) rotate(40deg); opacity: 0; } }

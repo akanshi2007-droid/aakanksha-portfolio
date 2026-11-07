@@ -42,9 +42,9 @@
     "windowTitle": "hate-speech-detector.exe",
     "title": "Hate Speech Detection System",
     "description": "A Python-based project that identifies and classifies hate speech in textual data.",
-    "highlights": ["Five customizable portfolio templates.",
-    "Live preview with profile editing and image uploads.",
-    "LocalStorage support and ZIP export functionality."],
+    "highlights": ["Developed a Python-based project to identify and classify hate speech in textual data.",
+"Explored text classification techniques to detect harmful language in online communication.",
+"Applied text preprocessing and TF-IDF vectorization for feature extraction and classification."],
     "tech": ["Python", "Machine Learning"],
     "links": {
       "github": "https://github.com/akanshi2007-droid/Hate-Speech-Detection/tree/main",

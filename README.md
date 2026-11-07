@@ -5,9 +5,9 @@ A cute retro-OS inspired personal portfolio built using **Vanilla HTML, CSS, and
 The portfolio features reusable UI components, JSON-based content management, interactive elements, and a nostalgic pixel-art interface. No build tools or external dependencies required.
 
 🌐 **Live Portfolio:** [aakankshasingh.vercel.app](https://aakankshasingh.vercel.app/)
+![Uploading image.png…]()
 
 ## ✨ Features
-
 - Retro desktop-inspired UI with pastel colours and pixel-art elements.
 - Reusable components for clean and organized code.
 - JSON-based content management for easy updates.
@@ -18,8 +18,7 @@ The portfolio features reusable UI components, JSON-based content management, in
 - Responsive design for desktop, tablet, and mobile.
 - Accessibility support, including keyboard navigation and reduced-motion preferences.
 
-## 🛠️ Tech Stack
-
+## 🛠️ Teck Stack
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript
 - **Architecture:** ES Modules, Reusable Components
 - **Data Management:** JSON
@@ -27,7 +26,6 @@ The portfolio features reusable UI components, JSON-based content management, in
 - **Tools:** Git, GitHub, VS Code
 
 ## 🚀 Getting Started
-
 ES modules require a local web server. Opening `index.html` directly in a browser will not work.
 
 **Option 1: Using npx**

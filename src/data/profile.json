@@ -1,7 +1,7 @@
 {
   "name": "Aakanksha Singh",
   "firstName": "Aakanksha",
-  "siteTitle": "Aakanksha Singh · Frontend Developer Portfolio",
+  "siteTitle": "Aakanksha Singh",
   "logo": { "text": "AS", "suffix": ".exe" },
   "email": "akanshi2007@gmail.com",
   "resume": "assets/docs/resume.pdf",
@@ -9,7 +9,7 @@
   "intro": { "title": "PORTFOLIO" },
 
   "hero": {
-    "kicker": "LEVEL 01 · PLAYER SELECT",
+    "kicker": "LEVEL 01 · ",
     "title": "PORTFOLIO",
     "greeting": "Hi, I'm",
     "role": "Frontend Developer · CSE (Data Science) @ SRM",

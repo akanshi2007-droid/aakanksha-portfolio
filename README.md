@@ -5,7 +5,9 @@ A cute retro-OS inspired personal portfolio built using **Vanilla HTML, CSS, and
 The portfolio features reusable UI components, JSON-based content management, interactive elements, and a nostalgic pixel-art interface. No build tools or external dependencies required.
 
 🌐 **Live Portfolio:** [aakankshasingh.vercel.app](https://aakankshasingh.vercel.app/)
-![Uploading image.png…]()
+
+<img width="1893" height="911" alt="image" src="https://github.com/user-attachments/assets/3da5152b-9d73-49a6-b7d6-0a7a8408e20f" />
+
 
 ## ✨ Features
 - Retro desktop-inspired UI with pastel colours and pixel-art elements.

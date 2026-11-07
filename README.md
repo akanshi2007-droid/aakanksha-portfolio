@@ -6,7 +6,7 @@ Reusable components render the page from **JSON content files**. No build step, 
 ## Run it
 
 ES modules need a web server (double-clicking `index.html` will not work).
-
+Deployed link-https://aakankshasingh.vercel.app/
 ```bash
 npx serve .          # then open the link it prints
 # or: python -m http.server 8000   -> http://localhost:8000
